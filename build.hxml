@@ -1,0 +1,7 @@
+-main Main
+-cp externs
+-cp src
+-js main.js
+-dce full
+-D analyzer-optimize
+-lib genes

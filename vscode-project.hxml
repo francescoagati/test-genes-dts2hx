@@ -1,0 +1,19 @@
+#automatically generated do not edit
+#@date Mon Sep 27 2021 16:58:51 GMT+0200 (Central European Summer Time)
+-main Main
+-cp /home/VEESPO/fagati/tmp/anpa/externs/
+-cp /home/VEESPO/fagati/tmp/anpa/src/
+-js main.js
+-dce full
+-D analyzer-optimize
+#@begin-cache -lib genes
+# -D js-es=6
+-cp /home/VEESPO/fagati/tmp/anpa/genes.Register/
+--macro genes.Generator.use()
+--macro addMetadata('@:genes.disableNativeAccessors', 'haxe.Exception')
+-cp /home/VEESPO/fagati/tmp/anpa/.haxelib/genes/0,4,2/src/
+-D genes=0.4.2
+-cp /home/VEESPO/fagati/tmp/anpa/.haxelib/helder,set/0,3,0/src/
+-D helder.set=0.3.0
+#@end-cache
+-cp /tmp/92e84912a2665f4aa2135de475d7416468e5085d
